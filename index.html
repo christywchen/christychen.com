@@ -28,6 +28,7 @@
 
         body {
             background: rgb(252, 229, 232);
+            background-image: url('./waves.jpg');
             font-family: 'Roboto Condensed', Helvetica, sans-serif, sans-serif;
             font-size: 20px;
             font-weight: 300;
@@ -44,12 +45,12 @@
 
         h1 {
             margin: 20px;
-            color: rgb(76, 212, 199);
+            color: #4c3a5d;
             font-family: BroadwayD;
             font-size: 70px;
             font-weight: 400;
             font-style: normal;
-            text-shadow: 3px 3px 0px pink;
+            text-shadow: 3px 3px 0px #ddb4c8;
         }
 
         .message {
@@ -57,8 +58,24 @@
             padding: 10px;
             color: rgb(248, 239, 241);
             text-align: center;
-            background-color: rgb(76, 212, 199);
-            border-bottom: 2px solid pink;
+            background-color: #4c3a5d;
+            border-bottom: 2px solid #ddb4c8;
+        }
+
+        .social {
+            margin: 30px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .social a {
+            margin: 0 10px;
+            color: #4c3a5d;
+            text-decoration: none;
+        }
+
+        .social a:hover {
+            color: #241a2e;
         }
     </style>
 </head>
@@ -66,8 +83,10 @@
 <body>
     <section>
         <h1>COMING SOON</h1>
-        <div class="message">something magical is on the way...</div>
+        <div class="message">something magical is on the way</div>
         <div class="social">
+            <a href="https://www.linkedin.com/in/christywchen/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/christywchen" target="_blank">GitHub</a>
         </div>
     </section>
 </body>
