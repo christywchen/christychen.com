@@ -1,0 +1,25 @@
+@import url("https://use.typekit.net/qqr7rbe.css");
+
+:root {
+  --body-font: aktiv-grotesk, sans-serif;
+  --thin-font: aktiv-grotesk, sans-serif;
+  --bg-color: #f1d5a6;
+  --accent-1: #a9373f;
+  --accent-2: #384272;
+  --accent-3: #e5b714;
+  --accent-4: #feaea3;
+  --accent-5: #44744c;
+}
+
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--body-font);
+  font-size: 16px;
+  background-color: var(--bg-color);
+}
