@@ -3,12 +3,13 @@
 :root {
   --body-font: aktiv-grotesk, sans-serif;
   --thin-font: aktiv-grotesk, sans-serif;
-  --bg-color: #f1d5a6;
-  --accent-1: #a9373f;
+  --bg-color: #e9cc9c;
+  --accent-1: #9c2e35;
   --accent-2: #384272;
   --accent-3: #e5b714;
   --accent-4: #feaea3;
-  --accent-5: #44744c;
+  --accent-5: #353334;
+  --accent-6: #2e4b33;
 }
 
 *,
@@ -22,4 +23,6 @@ body {
   font-family: var(--body-font);
   font-size: 16px;
   background-color: var(--bg-color);
+
+  overflow: hidden;
 }
