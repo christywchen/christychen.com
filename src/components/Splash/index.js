@@ -1,13 +1,56 @@
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { useSpring, useChain, animated } from 'react-spring'
+
 import github from '../../assets/github.svg';
 import linkedin from '../../assets/linkedin.svg';
 
 import './Splash.css';
 
 function Splash() {
+    // const circleRef = useSpringRef()
+    const circle = useSpring({
+        config: {
+            duration: 1050
+        },
+        from: {
+            width: '0vh',
+            height: '0vh'
+        },
+        to: {
+            width: '15vh',
+            height: '15vh',
+            transform: 'translateY(-50%)',
+        },
+    });
+
+    const vertLine = useSpring({
+        config: {
+            vertLine: 20,
+            duration: 1250
+        },
+        from: {
+            transform: 'rotate(-90deg) translateX(2vw) translateY(-100vw)',
+        },
+        to: [
+            { transform: 'rotate(-90deg) translateX(2vw) translateY(-0vw)' },
+            { transform: 'rotate(-180deg) translateX(0vw) translateY(-0vw)' }
+        ],
+        delay: 1250
+    })
+
+    const triangle3 = useSpring({
+        from: {
+            borderLeft: '20vw solid var(--accent-5)'
+        },
+        to: {
+            borderLeft: '20vw solid var(--accent-5)'
+        }
+    })
+
     return (
         <>
-            <div id='splash__main'>
+            {/* <div id='splash__main'>
                 <div id='splash__text'>
                     <div id='splash__title'>Hi! I'm Christy.</div>
                     <div id='splash__desc'>
@@ -45,12 +88,13 @@ function Splash() {
                 <div className='splash__squiggly--ellipse-1'></div>
                 <div className='splash__squiggly--ellipse-1 splash__squiggly--ellipse-2'></div>
             </div>
-            <div id='splash__triangle--1'></div>
-            <div id='splash__triangle--2'></div>
+        */}
+            {/* <div id='splash__triangle--1'></div> */}
+            {/* <div id='splash__triangle--2'></div> */}
             <div id='splash__triangle--3'></div>
             <div id='splash__verticals'>
-                <div id='splash__vertbar'></div>
-                <div id='splash__circle'></div>
+                <animated.div style={vertLine} id='splash__vertbar'></animated.div>
+                <animated.div style={circle} id='splash__circle'></animated.div>
             </div>
         </>
     )

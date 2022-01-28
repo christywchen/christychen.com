@@ -77,12 +77,13 @@
 
 #splash__circle {
     position: absolute;
-    top: 39%;
+    top: 46%;
     width: 14vh;
     height: 14vh;
     background-color: var(--accent-3);
     border-radius: 100%;
     z-index: 2;
+    transform-origin: center;
 }
 
 #splash__triangle--1 {
@@ -112,7 +113,7 @@
     width: 0;
     height: 0;
     border-top: 20vh solid transparent;
-    border-left: 20vw solid var(--accent-5);
+    /* border-left: 20vw solid var(--accent-5); */
     border-bottom: 20vh solid transparent;
 }
 
