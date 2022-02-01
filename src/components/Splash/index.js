@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { useSpring, useChain, animated } from 'react-spring'
+import { useSpring, useChain, animated, useSpringRef } from 'react-spring'
 
 import github from '../../assets/github.svg';
 import linkedin from '../../assets/linkedin.svg';
@@ -8,7 +8,9 @@ import linkedin from '../../assets/linkedin.svg';
 import './Splash.css';
 
 function Splash() {
-    // const circleRef = useSpringRef()
+    const vertLineRef = useSpringRef();
+    const triangle3Ref = useSpringRef();
+
     const circle = useSpring({
         config: {
             duration: 1050
@@ -27,26 +29,36 @@ function Splash() {
     const vertLine = useSpring({
         config: {
             vertLine: 20,
-            duration: 1250
+            duration: 1050
         },
         from: {
-            transform: 'rotate(-90deg) translateX(2vw) translateY(-100vw)',
+            transform: 'rotate(-90deg) translateX(2vw) translateY(-120vw)',
         },
         to: [
             { transform: 'rotate(-90deg) translateX(2vw) translateY(-0vw)' },
             { transform: 'rotate(-180deg) translateX(0vw) translateY(-0vw)' }
         ],
-        delay: 1250
+        delay: 1150,
+        ref: vertLineRef
     })
 
     const triangle3 = useSpring({
+        config: {
+            duration: 850
+        },
         from: {
-            borderLeft: '20vw solid var(--accent-5)'
+            left: '66%',
+            borderLeft: '0vw solid var(--accent-5)'
         },
         to: {
+            left: '67%',
             borderLeft: '20vw solid var(--accent-5)'
-        }
+        },
+        ref: triangle3Ref
     })
+
+
+    useChain([vertLineRef, triangle3Ref]);
 
     return (
         <>
@@ -91,7 +103,7 @@ function Splash() {
         */}
             {/* <div id='splash__triangle--1'></div> */}
             {/* <div id='splash__triangle--2'></div> */}
-            <div id='splash__triangle--3'></div>
+            <animated.div style={triangle3} id='splash__triangle--3'></animated.div>
             <div id='splash__verticals'>
                 <animated.div style={vertLine} id='splash__vertbar'></animated.div>
                 <animated.div style={circle} id='splash__circle'></animated.div>
