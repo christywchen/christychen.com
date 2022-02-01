@@ -15,7 +15,7 @@ function Splash() {
 
     const circle = useSpring({
         config: {
-            duration: 1050
+            duration: 900
         },
         from: {
             width: '0vh',
@@ -33,19 +33,19 @@ function Splash() {
             duration: 1000
         },
         from: {
-            transform: 'rotate(-90deg) translateX(2vw) translateY(-130vw)',
+            transform: 'rotate(-90deg) translateY(-130vw)',
         },
         to: [
-            { transform: 'rotate(-90deg) translateX(2vw) translateY(-0vw)' },
-            { transform: 'rotate(-180deg) translateX(0vw) translateY(-0vw)' }
+            { transform: 'rotate(-90deg) translateY(-0vw)' },
+            { transform: 'rotate(-180deg) translateY(-0vw)' }
         ],
-        delay: 1150,
+        delay: 900,
         ref: vertLineRef
     });
 
     const triangle1 = useSpring({
         config: {
-            duration: 850
+            duration: 650
         },
         from: {
             transform: 'translateX(120%)',
@@ -58,7 +58,7 @@ function Splash() {
 
     const triangle2 = useSpring({
         config: {
-            duration: 850
+            duration: 650
         },
         from: {
             transform: 'translateX(120%)',
@@ -71,7 +71,7 @@ function Splash() {
 
     const triangle3 = useSpring({
         config: {
-            duration: 600
+            duration: 500
         },
         from: {
             left: '66%',
@@ -133,8 +133,8 @@ function Splash() {
                 <animated.div style={vertLine} id='splash__vertbar'></animated.div>
                 <animated.div style={circle} id='splash__circle'></animated.div>
             </div>
-            <animated.div style={triangle2} id='splash__triangle--2'></animated.div>
             <animated.div style={triangle1} id='splash__triangle--1'></animated.div>
+            <animated.div style={triangle2} id='splash__triangle--2'></animated.div>
         </>
     )
 }
