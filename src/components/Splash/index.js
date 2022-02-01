@@ -9,6 +9,8 @@ import './Splash.css';
 
 function Splash() {
     const vertLineRef = useSpringRef();
+    const triangle1Ref = useSpringRef();
+    const triangle2Ref = useSpringRef();
     const triangle3Ref = useSpringRef();
 
     const circle = useSpring({
@@ -28,11 +30,10 @@ function Splash() {
 
     const vertLine = useSpring({
         config: {
-            vertLine: 20,
-            duration: 1050
+            duration: 1000
         },
         from: {
-            transform: 'rotate(-90deg) translateX(2vw) translateY(-120vw)',
+            transform: 'rotate(-90deg) translateX(2vw) translateY(-130vw)',
         },
         to: [
             { transform: 'rotate(-90deg) translateX(2vw) translateY(-0vw)' },
@@ -40,11 +41,37 @@ function Splash() {
         ],
         delay: 1150,
         ref: vertLineRef
-    })
+    });
+
+    const triangle1 = useSpring({
+        config: {
+            duration: 850
+        },
+        from: {
+            transform: 'translateX(120%)',
+        },
+        to: {
+            transform: 'translateX(10%)',
+        },
+        ref: triangle1Ref
+    });
+
+    const triangle2 = useSpring({
+        config: {
+            duration: 850
+        },
+        from: {
+            transform: 'translateX(120%)',
+        },
+        to: {
+            transform: 'translateX(10%)',
+        },
+        ref: triangle2Ref
+    });
 
     const triangle3 = useSpring({
         config: {
-            duration: 850
+            duration: 600
         },
         from: {
             left: '66%',
@@ -55,10 +82,10 @@ function Splash() {
             borderLeft: '20vw solid var(--accent-5)'
         },
         ref: triangle3Ref
-    })
+    });
 
 
-    useChain([vertLineRef, triangle3Ref]);
+    useChain([vertLineRef, triangle3Ref, triangle1Ref, triangle2Ref]);
 
     return (
         <>
@@ -101,13 +128,13 @@ function Splash() {
                 <div className='splash__squiggly--ellipse-1 splash__squiggly--ellipse-2'></div>
             </div>
         */}
-            {/* <div id='splash__triangle--1'></div> */}
-            {/* <div id='splash__triangle--2'></div> */}
             <animated.div style={triangle3} id='splash__triangle--3'></animated.div>
             <div id='splash__verticals'>
                 <animated.div style={vertLine} id='splash__vertbar'></animated.div>
                 <animated.div style={circle} id='splash__circle'></animated.div>
             </div>
+            <animated.div style={triangle2} id='splash__triangle--2'></animated.div>
+            <animated.div style={triangle1} id='splash__triangle--1'></animated.div>
         </>
     )
 }
