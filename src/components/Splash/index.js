@@ -15,6 +15,9 @@ function Splash() {
     const cylinder1Ref = useSpringRef();
     const cylinder2Ref = useSpringRef();
     const cylinder3Ref = useSpringRef();
+    const tripleLinesRef = useSpringRef();
+    const squigglyLinesRef = useSpringRef();
+    const textBlockRef = useSpringRef();
 
     const circle = useSpring({
         config: {
@@ -127,13 +130,55 @@ function Splash() {
         ref: cylinder3Ref
     });
 
-    useChain([vertLineRef, triangle3Ref, triangle1Ref, triangle2Ref]);
-    useChain([cylinder1Ref, cylinder2Ref, cylinder3Ref])
+    const tripleLines = useSpring({
+        config: {
+            duration: 600
+        },
+        from: {
+            width: '0%'
+        },
+        to: {
+            width: '55%'
+        },
+        ref: tripleLinesRef
+    });
+
+    const squigglyLines = useSpring({
+        config: {
+            duration: 850
+        },
+        from: {
+            width: '0%'
+        },
+        to: {
+            width: '55%'
+        },
+        ref: squigglyLinesRef
+    });
+
+    const textBlock = useSpring({
+        config: {
+            duration: 450
+        },
+        from: {
+            visibility: 'hidden',
+            opacity: '0'
+        },
+        to: {
+            visibility: 'visible',
+            opacity: '1'
+        },
+        ref: textBlockRef
+    })
+
+
+    useChain([vertLineRef, triangle3Ref, triangle1Ref, triangle2Ref, squigglyLinesRef]);
+    useChain([cylinder1Ref, cylinder2Ref, cylinder3Ref, tripleLinesRef, textBlockRef])
 
     return (
         <>
-            {/* <div id='splash__main'>
-                <div id='splash__text'>
+            <div id='splash__main'>
+                <animated.div style={textBlock} id='splash__text'>
                     <div id='splash__title'>Hi! I'm Christy.</div>
                     <div id='splash__desc'>
                         <p>
@@ -146,30 +191,30 @@ function Splash() {
                     <div id='splash__cta'>
                         <Link to='/home'>Enter</Link>
                     </div>
-                </div>
-                <div id='splash__lines'>
+                </animated.div>
+                <animated.div style={tripleLines} id='splash__lines'>
                     <div className='splash__line'></div>
                     <div className='splash__line'></div>
                     <div className='splash__line'></div>
-                </div>
-                <div id='splash__social'>
+                </animated.div>
+                <animated.div style={textBlock} id='splash__social'>
                     <a href='https://github.com/christywchen/' target="_blank" rel="noreferrer noopener">
                         <img className='splash__social--icon' src={github} />
                     </a>
                     <a href='https://www.linkedin.com/in/christy-chen/' target="_blank" rel="noreferrer noopener">
                         <img className='splash__social--icon' src={linkedin} />
                     </a>
-                </div>
-            </div> */}
+                </animated.div>
+            </div>
             <div id='splash__cylinders'>
                 <animated.div style={cylinder1} className='splash__cylinder splash__cylinder--1'></animated.div>
                 <animated.div style={cylinder2} className='splash__cylinder splash__cylinder--2'></animated.div>
                 <animated.div style={cylinder3} className='splash__cylinder splash__cylinder--3'></animated.div>
             </div>
-            {/* <div id='splash__squiggly'>
+            <animated.div style={squigglyLines} id='splash__squiggly'>
                 <div className='splash__squiggly--ellipse-1'></div>
                 <div className='splash__squiggly--ellipse-1 splash__squiggly--ellipse-2'></div>
-            </div> */}
+            </animated.div>
             <animated.div style={triangle3} id='splash__triangle--3'></animated.div>
             <div id='splash__verticals'>
                 <animated.div style={vertLine} id='splash__vertbar'></animated.div>
