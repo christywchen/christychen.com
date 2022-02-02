@@ -1,7 +1,13 @@
 #splash__main {
     position: absolute;
-    top: 35vh;
-    left: 20vw;
+    top: 35%;
+    width: 100%;
+}
+
+#splash__text {
+    position: relative;
+    width: fit-content;
+    left: 22%;
     z-index: 1;
 }
 
@@ -31,15 +37,15 @@
 }
 
 #splash__cta a:hover {
-    color: black;
-    border-bottom: 1px solid black;
+    color: var(--accent-5);
+    border-bottom: 1px solid var(--accent-5);
 }
 
 #splash__social {
-    position: absolute;
-    top: 70vh;
-    left: 45vw;
+    position: relative;
+    left: 45%;
     display: flex;
+    margin-top: 50px;
     gap: 15px;
     z-index: 1;
 }
@@ -47,20 +53,41 @@
 .splash__social--icon {
     width: 40px;
     height: 40px;
-    opacity: 0.7;
+    opacity: 0.6;
     transition: 0.3s;
 }
 
 .splash__social--icon:hover {
-    opacity: 1;
+    opacity: 0.8;
+}
+
+#splash__verticals {
+    position: absolute;
+    top: 0vh;
+    left: 65%;
+    height: 102.5vh;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
 }
 
 #splash__vertbar {
     position: absolute;
-    left: 65vw;
-    width: 20px;
-    height: 100%;
+    width: 3vh;
+    /* padding: 0 1.5vh; */
+    height: 100vh;
     background-color: var(--accent-1);
+}
+
+#splash__circle {
+    position: absolute;
+    top: 50.5vh;
+    width: 14vh;
+    height: 14vh;
+    background-color: var(--accent-3);
+    border-radius: 100%;
+    z-index: 2;
+    transform-origin: center;
 }
 
 #splash__triangle--1 {
@@ -85,37 +112,25 @@
 
 #splash__triangle--3 {
     position: absolute;
-    top: 27%;
-    left: 67vw;
+    top: 30vh;
+    left: 67%;
     width: 0;
     height: 0;
-    border-top: 10vw solid transparent;
-    border-left: 18vw solid var(--accent-5);
-    border-bottom: 10vw solid transparent;
-}
-
-#splash__circle {
-    position: absolute;
-    left: 62.5vw;
-    top: 39%;
-    width: 12vh;
-    height: 12vh;
-    background-color: var(--accent-3);
-    border-radius: 100%;
-    z-index: 1;
+    border-top: 20vh solid transparent;
+    border-left: 20vw solid var(--accent-5);
+    border-bottom: 20vh solid transparent;
 }
 
 #splash__lines {
-    position: absolute;
-    top: 60vh;
-    width: 55vw;
+    width: 55%;
+    margin-top: 50px;
 }
 
 .splash__line {
     width: 100%;
     height: 3px;
     margin: 8px 0;
-    background-color: black;
+    background-color: var(--accent-5);
 }
 
 #splash__cylinders {
@@ -130,7 +145,7 @@
 
 .splash__cylinder {
     width: 100%;
-    background-color: black;
+    background-color: var(--accent-5);
     background-color: var(--accent-3);
     border-radius: 100px;
 }
@@ -149,7 +164,7 @@
 
 #splash__squiggly {
     position: absolute;
-    top: 7vh;
+    top: 10vh;
     left: 22vw;
     width: 450px;
     height: 50px;
@@ -158,9 +173,16 @@
 
 .splash__squiggly--ellipse-1 {
     position: absolute;
-    background: radial-gradient(ellipse, transparent, transparent 7px, black 7px, black 10px, transparent 11px);
+    background: radial-gradient(
+        ellipse,
+        transparent,
+        transparent 7px,
+        var(--accent-5) 7px,
+        var(--accent-5) 10px,
+        transparent 11px
+    );
     background-size: 36px 40px;
-    width: 450px;
+    width: 461px;
     height: 20px;
 }
 
