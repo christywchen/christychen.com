@@ -12,6 +12,9 @@ function Splash() {
     const triangle1Ref = useSpringRef();
     const triangle2Ref = useSpringRef();
     const triangle3Ref = useSpringRef();
+    const cylinder1Ref = useSpringRef();
+    const cylinder2Ref = useSpringRef();
+    const cylinder3Ref = useSpringRef();
 
     const circle = useSpring({
         config: {
@@ -30,16 +33,16 @@ function Splash() {
 
     const vertLine = useSpring({
         config: {
-            duration: 1000
+            duration: 800
         },
         from: {
-            transform: 'rotate(-90deg) translateY(-130vw)',
+            transform: 'rotate(-90deg) translateY(-140vw)',
         },
         to: [
             { transform: 'rotate(-90deg) translateY(-0vw)' },
             { transform: 'rotate(-180deg) translateY(-0vw)' }
         ],
-        delay: 900,
+        delay: 800,
         ref: vertLineRef
     });
 
@@ -58,7 +61,7 @@ function Splash() {
 
     const triangle2 = useSpring({
         config: {
-            duration: 650
+            duration: 450
         },
         from: {
             transform: 'translateX(120%)',
@@ -84,8 +87,48 @@ function Splash() {
         ref: triangle3Ref
     });
 
+    const cylinder1 = useSpring({
+        config: {
+            duration: 600
+        },
+        from: {
+            height: '0%'
+        },
+        to: {
+            height: '100%'
+        },
+        delay: 2000,
+        ref: cylinder1Ref
+    });
+
+    const cylinder2 = useSpring({
+        config: {
+            duration: 600
+        },
+        from: {
+            height: '0%'
+        },
+        to: {
+            height: '80%'
+        },
+        ref: cylinder2Ref
+    });
+
+    const cylinder3 = useSpring({
+        config: {
+            duration: 600
+        },
+        from: {
+            height: '0%'
+        },
+        to: {
+            height: '60%'
+        },
+        ref: cylinder3Ref
+    });
 
     useChain([vertLineRef, triangle3Ref, triangle1Ref, triangle2Ref]);
+    useChain([cylinder1Ref, cylinder2Ref, cylinder3Ref])
 
     return (
         <>
@@ -117,17 +160,16 @@ function Splash() {
                         <img className='splash__social--icon' src={linkedin} />
                     </a>
                 </div>
-            </div>
+            </div> */}
             <div id='splash__cylinders'>
-                <div className='splash__cylinder splash__cylinder--1'></div>
-                <div className='splash__cylinder splash__cylinder--2'></div>
-                <div className='splash__cylinder splash__cylinder--3'></div>
+                <animated.div style={cylinder1} className='splash__cylinder splash__cylinder--1'></animated.div>
+                <animated.div style={cylinder2} className='splash__cylinder splash__cylinder--2'></animated.div>
+                <animated.div style={cylinder3} className='splash__cylinder splash__cylinder--3'></animated.div>
             </div>
-            <div id='splash__squiggly'>
+            {/* <div id='splash__squiggly'>
                 <div className='splash__squiggly--ellipse-1'></div>
                 <div className='splash__squiggly--ellipse-1 splash__squiggly--ellipse-2'></div>
-            </div>
-        */}
+            </div> */}
             <animated.div style={triangle3} id='splash__triangle--3'></animated.div>
             <div id='splash__verticals'>
                 <animated.div style={vertLine} id='splash__vertbar'></animated.div>

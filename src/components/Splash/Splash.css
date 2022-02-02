@@ -63,7 +63,7 @@
 
 #splash__verticals {
     position: absolute;
-    top: -3.5vh;
+    top: 0vh;
     left: 65%;
     height: 102.5vh;
     display: flex;
@@ -73,14 +73,15 @@
 
 #splash__vertbar {
     position: absolute;
-    padding: 0 1.5vh;
-    height: 105vh;
+    width: 3vh;
+    /* padding: 0 1.5vh; */
+    height: 100vh;
     background-color: var(--accent-1);
 }
 
 #splash__circle {
     position: absolute;
-    top: 53vh;
+    top: 50.5vh;
     width: 14vh;
     height: 14vh;
     background-color: var(--accent-3);
@@ -111,7 +112,7 @@
 
 #splash__triangle--3 {
     position: absolute;
-    top: 29vh;
+    top: 30vh;
     left: 67%;
     width: 0;
     height: 0;
