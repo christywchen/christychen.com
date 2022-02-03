@@ -13,6 +13,7 @@
 
 #splash__title {
     color: var(--accent-1);
+    margin: 0 0 20px;
     font-family: var(--body-font);
     font-size: 3em;
     font-weight: 700;
@@ -25,6 +26,10 @@
     font-size: 1.2em;
     font-weight: 300;
     line-height: 1.3em;
+}
+
+#splash__desc p {
+    margin: 0px;
 }
 
 #splash__cta a {

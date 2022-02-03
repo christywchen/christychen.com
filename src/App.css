@@ -1,9 +1,11 @@
 #container__one {
-    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
     background-color: var(--bg-color);
 }
 
 #container__two {
-    /* height: 100vh; */
-    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    background-color: var(--bg-color);
 }

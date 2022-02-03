@@ -1,0 +1,50 @@
+#profile__container {
+    width: 60vw;
+}
+
+.profile__container--content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-items: center;
+    height: max-content;
+}
+
+.profile__info {
+    flex: 2 1 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 1.5em;
+}
+
+.profile__header {
+    margin: 10px 0 20px;
+    color: var(--accent-1);
+    font-family: var(--body-font);
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.profile__image {
+    background-image: url("../../assets/christy.jpg");
+    background-size: cover;
+    border-radius: 3px 3px 0 0;
+    flex: 2 1 1fr;
+    height: 300px;
+    overflow: hidden;
+    width: 300px;
+    border-radius: 100%;
+}
+
+.profile__links {
+    margin: 20px 0;
+}
+
+.profile__links a:first-child {
+    margin: 0 20px 0 0;
+}
+
+.profile__links a {
+    margin: 0 20px 0;
+}
