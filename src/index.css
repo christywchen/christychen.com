@@ -9,8 +9,9 @@
   --accent-2: #384272;
   --accent-3: #e5b714;
   --accent-4: #feaea3;
-  --accent-5: #353334;
+  --accent-5: #444343;
   --accent-6: #2e4b33;
+  --anchor-transition: 0.3s;
 }
 
 *,
@@ -28,8 +29,22 @@ body {
   background-color: var(--bg-color);
   overflow-x: hidden;
   font-weight: 300;
+  letter-spacing: 0.2px;
 }
 
 p {
   margin: 15px 0;
+}
+
+a {
+  color: var(--accent-5);
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1px solid var(--accent-5);
+}
+
+a:hover {
+  color: var(--accent-1);
+  border-bottom: 1px solid var(--accent-1);
+  transition: var(--anchor-transition);
 }

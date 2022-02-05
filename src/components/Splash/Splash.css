@@ -37,7 +37,7 @@
     font-weight: 500;
     text-decoration: none;
     border-bottom: 1px solid var(--accent-1);
-    transition: 0.3s;
+    transition: var(--anchor-transition);
 }
 
 #splash__cta a:hover {

@@ -36,7 +36,7 @@ function Splash() {
 
     const vertLine = useSpring({
         config: {
-            duration: 800
+            duration: 800,
         },
         from: {
             opacity: '0',

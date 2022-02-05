@@ -4,6 +4,8 @@ function Profile() {
     return (
         <>
             <div id='profile__container'>
+                <div className='profile__image profile__image--top'>
+                </div>
                 <div className='profile__header'>Christy Chen</div>
                 <div className='profile__container--content'>
                     <div className='profile__info'>
@@ -15,7 +17,7 @@ function Profile() {
                                 These days, I still tell stories and still seek to create, but my means has shifted.
                             </p>
                             <p>
-                                As a software engineer, my toolkit now includes a wide breadth of technologies. I'm leveraging my past experience in digital marketing, ecommerce, and analyzing user behavior to develop full-stack applications that bring joy to not only my world, but hopefully those of others as well.
+                                As a software engineer, my toolkit includes a wide breadth of technologies. I'm also leveraging my past experience in digital marketing, ecommerce, and analyzing user behavior to develop full-stack applications that bring joy to not only my world, but hopefully those of others as well.
                             </p>
                         </div>
                         <div className='profile__links'>
@@ -26,7 +28,7 @@ function Profile() {
                             <a href=''>Contact</a>
                         </div>
                     </div>
-                    <div className='profile__image'>
+                    <div className='profile__image profile__image--normal'>
                     </div>
                 </div>
             </div >
