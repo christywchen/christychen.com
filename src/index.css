@@ -36,14 +36,14 @@ p {
   margin: 15px 0;
 }
 
-a {
+a.anchor__normal {
   color: var(--accent-5);
   font-weight: 600;
   text-decoration: none;
   border-bottom: 1px solid var(--accent-5);
 }
 
-a:hover {
+a.anchor__normal:hover {
   color: var(--accent-1);
   border-bottom: 1px solid var(--accent-1);
   transition: var(--anchor-transition);

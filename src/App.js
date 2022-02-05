@@ -32,7 +32,7 @@ function App() {
 			</Parallax>
 			<Routes>
 				{/* <Route path='/' element={<Splash />} /> */}
-				<Route path='/home' element={<>Test</>} />
+				{/* <Route path='/home' element={<>Test</>} /> */}
 			</Routes>
 		</>
 	);

@@ -21,11 +21,11 @@ function Profile() {
                             </p>
                         </div>
                         <div className='profile__links'>
-                            <a href=''>Resume</a>
-                            <a href=''>Github</a>
-                            <a href=''>LinkedIn</a>
-                            <a href=''>AngelList</a>
-                            <a href=''>Contact</a>
+                            {/* <a href='' target="_blank" rel="noreferrer noopener" className="anchor__normal">Resume</a> */}
+                            <a href='https://github.com/christywchen' target="_blank" rel="noreferrer noopener" className="anchor__normal">Github</a>
+                            <a href='https://www.linkedin.com/in/christywchen' target="_blank" rel="noreferrer noopener" className="anchor__normal">LinkedIn</a>
+                            <a href='https://angel.co/u/christy-chen' target="_blank" rel="noreferrer noopener" className="anchor__normal">AngelList</a>
+                            <a href='mailto:christy.w.chen@gmail.com' target="_blank" rel="noreferrer noopener" className="anchor__normal">Contact</a>
                         </div>
                     </div>
                     <div className='profile__image profile__image--normal'>
