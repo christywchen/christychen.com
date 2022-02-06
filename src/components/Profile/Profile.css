@@ -1,0 +1,128 @@
+#profile__container {
+    width: max(50vw, 1010px, 58%);
+}
+
+.profile__container--content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-items: center;
+    height: max-content;
+}
+
+.profile__info {
+    display: flex;
+    width: max(36vw, 620px, 44%);
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 1.5em;
+}
+
+.profile__header {
+    margin: 10px 0 20px;
+    color: var(--accent-1);
+    font-family: var(--body-font);
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.profile__image {
+    background-image: url("../../assets/christy.jpg");
+    background-size: cover;
+    border-radius: 3px 3px 0 0;
+    height: max(18vw, 340px);
+    width: max(18vw, 340px);
+    border-radius: 100%;
+}
+
+.profile__links {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.profile__links a:first-child {
+    margin: 0 20px 0 0;
+}
+
+.profile__links a {
+    margin: 0 20px 0;
+}
+
+.profile__image--top {
+    display: none;
+}
+
+@media (max-width: 999px) {
+    #profile__container {
+        width: 70%;
+        height: fit-content;
+    }
+
+    .profile__container--content {
+        flex-direction: column-reverse;
+        gap: 0px;
+    }
+
+    .profile__info {
+        width: 100%;
+    }
+
+    .profile__image {
+        margin: 30px 0;
+        height: 20vw;
+        width: 20vw;
+    }
+
+    .profile__links {
+        margin: 0;
+    }
+
+    .profile__image--normal {
+        display: none;
+    }
+
+    .profile__image--top {
+        display: block;
+    }
+}
+
+@media (max-width: 599px) {
+    #profile__container {
+        text-align: center;
+    }
+
+    .profile__container--content {
+        width: 100%;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .profile__info {
+        width: 100%;
+    }
+
+    .profile__header {
+        font-size: 2em;
+        margin: 10px 0 10px;
+    }
+
+    .profile__links {
+        justify-content: center;
+    }
+
+    .profile__links {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+
+    .profile__links a:first-child,
+    .profile__links a {
+        margin: 10px;
+    }
+
+    .profile__image--top {
+        display: none;
+    }
+}

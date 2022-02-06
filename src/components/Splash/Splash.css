@@ -13,6 +13,7 @@
 
 #splash__title {
     color: var(--accent-1);
+    margin: 0 0 20px;
     font-family: var(--body-font);
     font-size: 3em;
     font-weight: 700;
@@ -23,8 +24,11 @@
     margin-top: 12px;
     padding-left: 3px;
     font-size: 1.2em;
-    font-weight: 300;
     line-height: 1.3em;
+}
+
+#splash__desc p {
+    margin: 0px;
 }
 
 #splash__cta a {
@@ -33,7 +37,7 @@
     font-weight: 500;
     text-decoration: none;
     border-bottom: 1px solid var(--accent-1);
-    transition: 0.3s;
+    transition: var(--anchor-transition);
 }
 
 #splash__cta a:hover {
@@ -140,7 +144,7 @@
     width: 20vw;
     height: 60vh;
     display: flex;
-    gap: 20px;
+    gap: 1vw;
 }
 
 .splash__cylinder {
@@ -169,6 +173,7 @@
     width: 450px;
     height: 50px;
     overflow: hidden;
+    z-index: 2;
 }
 
 .splash__squiggly--ellipse-1 {

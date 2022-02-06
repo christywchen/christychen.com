@@ -36,14 +36,21 @@ function Splash() {
 
     const vertLine = useSpring({
         config: {
-            duration: 800
+            duration: 800,
         },
         from: {
+            opacity: '0',
             transform: 'rotate(-90deg) translateY(-140vw)',
         },
         to: [
-            { transform: 'rotate(-90deg) translateY(-0vw)' },
-            { transform: 'rotate(-180deg) translateY(-0vw)' }
+            {
+                opacity: '1',
+                transform: 'rotate(-90deg) translateY(-0vw)'
+            },
+            {
+                opacity: '1',
+                transform: 'rotate(-180deg) translateY(-0vw)'
+            }
         ],
         delay: 800,
         ref: vertLineRef
@@ -54,9 +61,11 @@ function Splash() {
             duration: 650
         },
         from: {
+            opacity: '0',
             transform: 'translateX(120%)',
         },
         to: {
+            opacity: '1',
             transform: 'translateX(10%)',
         },
         ref: triangle1Ref
@@ -67,9 +76,11 @@ function Splash() {
             duration: 450
         },
         from: {
+            opacity: '0',
             transform: 'translateX(120%)',
         },
         to: {
+            opacity: '1',
             transform: 'translateX(10%)',
         },
         ref: triangle2Ref
@@ -81,10 +92,12 @@ function Splash() {
         },
         from: {
             left: '66%',
+            opacity: '0',
             borderLeft: '0vw solid var(--accent-5)'
         },
         to: {
             left: '67%',
+            opacity: '1',
             borderLeft: '20vw solid var(--accent-5)'
         },
         ref: triangle3Ref
@@ -135,9 +148,11 @@ function Splash() {
             duration: 600
         },
         from: {
+            opacity: '0',
             width: '0%'
         },
         to: {
+            opacity: '1',
             width: '55%'
         },
         ref: tripleLinesRef

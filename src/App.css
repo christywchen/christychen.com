@@ -1,0 +1,11 @@
+#container__one {
+    display: flex;
+    justify-content: center;
+    background-color: var(--bg-color);
+}
+
+#container__two {
+    display: flex;
+    justify-content: center;
+    background-color: var(--bg-color);
+}
