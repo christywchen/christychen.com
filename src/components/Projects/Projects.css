@@ -1,0 +1,125 @@
+#projects__container {
+    width: max(50vw, 1010px, 58%);
+}
+
+.projects__list {
+    padding: 5vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 1.5em;
+    grid-gap: 70px;
+}
+
+.projects__header {
+    margin: 10px 0 20px;
+    color: var(--accent-1);
+    font-family: var(--body-font);
+    text-align: center;
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.projects__item {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projects__image {
+    width: max(30vw, 300px);
+    height: auto;
+    border-radius: 10px;
+}
+
+.profile__links {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.profile__links a:first-child {
+    margin: 0 20px 0 0;
+}
+
+.profile__links a {
+    margin: 0 20px 0;
+}
+
+.profile__image--top {
+    display: none;
+}
+
+@media (max-width: 999px) {
+    #projects__container {
+        width: 70%;
+        height: fit-content;
+    }
+
+    .profile__container--content {
+        flex-direction: column-reverse;
+        gap: 0px;
+    }
+
+    .profile__info {
+        width: 100%;
+    }
+
+    .profile__image {
+        margin: 30px 0;
+        height: 20vw;
+        width: 20vw;
+    }
+
+    .profile__links {
+        margin: 0;
+    }
+
+    .profile__image--normal {
+        display: none;
+    }
+
+    .profile__image--top {
+        display: block;
+    }
+}
+
+@media (max-width: 599px) {
+    #projects__container {
+        text-align: center;
+    }
+
+    .profile__container--content {
+        width: 100%;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .profile__info {
+        width: 100%;
+    }
+
+    .profile__header {
+        font-size: 2em;
+        margin: 10px 0 10px;
+    }
+
+    .profile__links {
+        justify-content: center;
+    }
+
+    .profile__links {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+
+    .profile__links a:first-child,
+    .profile__links a {
+        margin: 10px;
+    }
+
+    .profile__image--top {
+        display: none;
+    }
+}
