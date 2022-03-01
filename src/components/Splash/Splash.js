@@ -200,7 +200,7 @@ function Splash() {
                             I tell stories through code.
                         </p>
                         <p>
-                            Let's build something to make the world a better place.
+                            Let's build something to add some positivity to the world.
                         </p>
                     </div>
                     <div id='splash__cta'>
