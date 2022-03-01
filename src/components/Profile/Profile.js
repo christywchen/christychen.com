@@ -3,7 +3,7 @@ import './Profile.css';
 function Profile() {
     return (
         <>
-            <div id='profile__container'>
+            <section id='profile__container'>
                 <div className='profile__image profile__image--top'></div>
                 <div className='profile__header'>Christy Chen</div>
                 <div className='profile__container--content'>
@@ -29,7 +29,7 @@ function Profile() {
                     </div>
                     <div className='profile__image profile__image--normal'></div>
                 </div>
-            </div >
+            </section>
         </>
     )
 }

@@ -3,7 +3,7 @@ import './Technologies.css';
 function Technologies() {
     return (
         <>
-            <div id='technologies__container'>
+            <section id='technologies__container'>
                 <div className='technologies__header'>Technologies</div>
                 Some of the technologies I've been working with lately...
                 <div className='technologies__container--content'>
@@ -26,7 +26,7 @@ function Technologies() {
                         </ul>
                     </div>
                 </div>
-            </div>
+            </section>
         </>
     )
 }
