@@ -106,6 +106,37 @@
 }
 
 @media (max-width: 999px) {
+    .projects__item {
+        display: flex;
+        flex-wrap: wrap;
+        grid-gap: 30px;
+    }
+
+    .projects__item--desc {
+        flex-grow: 0;
+        flex-basis: auto;
+        min-width: 0;
+    }
+
+    .projects__item--img {
+        flex-grow: 0;
+        flex-basis: auto;
+        min-width: 0;
+    }
+
+    .projects__image {
+        width: 100%;
+        height: auto;
+        /* border-radius: 10px; */
+    }
+
+    .projects__item--img--top {
+        display: inline-block;
+    }
+
+    .projects__item--img {
+        display: none;
+    }
 }
 
 @media (max-width: 599px) {
