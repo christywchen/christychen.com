@@ -27,14 +27,14 @@ function App() {
 				</ParallaxLayer>
 				<ParallaxLayer
 					id='container__three'
-					offset={1.9}
+					offset={2}
 					speed={0.2}
 					style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
 					<Technologies />
 				</ParallaxLayer>
 				<ParallaxLayer
 					id='container__four'
-					offset={3.2}
+					offset={3.5}
 					speed={0.2}
 					style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
 					<Projects />
