@@ -27,13 +27,14 @@ ul.technologies__list {
 }
 
 ul.technologies__list li {
-    margin: 5px 0;
+    margin: 10px 0;
 }
 
 ul.technologies__list li:before {
     content: "◉";
     line-height: 2em;
     padding-right: 8px;
+    /* padding-top: -5px; */
     color: var(--accent-2);
-    font-size: 0.7em;
+    font-size: 0.8em;
 }
