@@ -30,13 +30,17 @@
 .projects__item--desc {
     flex-grow: 1.2;
     flex-basis: 0;
-    min-width: 0;
+    /* min-width: 0; */
 }
 
 .projects__item--img {
     flex-grow: 1;
     flex-basis: 0;
-    min-width: 0;
+    /* min-width: 0; */
+}
+
+.projects__item--img--top {
+    display: none;
 }
 
 .projects__image {
@@ -60,7 +64,7 @@
     flex-wrap: wrap;
     font-size: 0.8em;
     list-style-type: none;
-    grid-gap: 15px;
+    grid-gap: 5px 15px;
 }
 
 .projects__links {
@@ -102,75 +106,38 @@
 }
 
 @media (max-width: 999px) {
-    #projects__container {
-        width: 70%;
-        height: fit-content;
-    }
-
-    .profile__container--content {
-        flex-direction: column-reverse;
-        gap: 0px;
-    }
-
-    .profile__info {
-        width: 100%;
-    }
-
-    .profile__image {
-        margin: 30px 0;
-        height: 20vw;
-        width: 20vw;
-    }
-
-    .profile__links {
-        margin: 0;
-    }
-
-    .profile__image--normal {
-        display: none;
-    }
-
-    .profile__image--top {
-        display: block;
-    }
 }
 
 @media (max-width: 599px) {
-    #projects__container {
-        text-align: center;
-    }
-
-    .profile__container--content {
-        width: 100%;
-        flex-direction: column-reverse;
-        justify-content: center;
-    }
-
-    .profile__info {
-        width: 100%;
-    }
-
-    .profile__header {
-        font-size: 2em;
-        margin: 10px 0 10px;
-    }
-
-    .profile__links {
-        justify-content: center;
-    }
-
-    .profile__links {
+    .projects__item {
         display: flex;
         flex-wrap: wrap;
-        margin: 0;
+        grid-gap: 30px;
     }
 
-    .profile__links a:first-child,
-    .profile__links a {
-        margin: 10px;
+    .projects__item--desc {
+        flex-grow: 0;
+        flex-basis: auto;
+        min-width: 0;
     }
 
-    .profile__image--top {
+    .projects__item--img {
+        flex-grow: 0;
+        flex-basis: auto;
+        min-width: 0;
+    }
+
+    .projects__image {
+        width: 100%;
+        height: auto;
+        /* border-radius: 10px; */
+    }
+
+    .projects__item--img--top {
+        display: inline-block;
+    }
+
+    .projects__item--img {
         display: none;
     }
 }

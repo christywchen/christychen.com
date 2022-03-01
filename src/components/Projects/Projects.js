@@ -11,6 +11,9 @@ function Projects() {
                 <div className='projects__header'>Projects</div>
                 <div className='projects__list'>
                     <div className='projects__item'>
+                        <div className='projects__item--img--top'>
+                            <img className='projects__image' src={thebooknook} />
+                        </div>
                         <div className='projects__item--desc'>
                             <div className='projects__subtitle'>The Book Nook</div>
                             <div className='projects__description'>A book club manager that helps communities stay organized. It offers a space for members to socialize and stay up to date so that they can read more, discuss more, and stress less. Club members can also stay in touch through live discussion channels.</div>
@@ -43,6 +46,9 @@ function Projects() {
                         <hr className='projects__divider projects__divider--2' />
                     </div>
                     <div className='projects__item'>
+                        <div className='projects__item--img--top'>
+                            <img className='projects__image' src={carpediem} />
+                        </div>
                         <div className='projects__item--img'>
                             <img className='projects__image' src={carpediem} />
                         </div>
@@ -74,6 +80,9 @@ function Projects() {
                         <hr className='projects__divider projects__divider--2' />
                     </div>
                     <div className='projects__item'>
+                        <div className='projects__item--img--top'>
+                            <img className='projects__image' src={onetoten} />
+                        </div>
                         <div className='projects__item--desc'>
                             <div className='projects__subtitle'>One-to-Ten</div>
                             <div className='projects__description'>A no-frills social experiment that asks users to be a little more honest, and a little more introspective. This personality surveying application essentially strips down dating apps to their most raw, basic purpose: matching users with whom they have the most similarities with.</div>
@@ -105,6 +114,9 @@ function Projects() {
                         <hr className='projects__divider projects__divider--2' />
                     </div>
                     <div className='projects__item'>
+                        <div className='projects__item--img--top'>
+                            <img className='projects__image' src={tomoolist} />
+                        </div>
                         <div className='projects__item--img'>
                             <img className='projects__image' src={tomoolist} />
                         </div>
