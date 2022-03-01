@@ -1,0 +1,10 @@
+#main__container {
+    position: absolute;
+    top: calc(100vh + 40vh);
+    display: flex;
+    padding-bottom: 40vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 500px;
+}

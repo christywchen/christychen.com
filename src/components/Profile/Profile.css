@@ -1,5 +1,8 @@
 #profile__container {
     width: max(50vw, 1010px, 58%);
+    display: "flex";
+    justify-content: "center";
+    align-items: "center";
 }
 
 .profile__container--content {
