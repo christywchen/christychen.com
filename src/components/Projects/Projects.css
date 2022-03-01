@@ -1,5 +1,5 @@
 #projects__container {
-    width: 80%;
+    width: 75%;
 }
 
 .projects__list {
@@ -106,9 +106,16 @@
 }
 
 @media (max-width: 999px) {
+    #projects__container {
+        margin-top: 450px;
+    }
 }
 
 @media (max-width: 599px) {
+    #projects__container {
+        margin-top: 1150px;
+    }
+
     .projects__item {
         display: flex;
         flex-wrap: wrap;

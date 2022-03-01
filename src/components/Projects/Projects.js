@@ -12,10 +12,16 @@ function Projects() {
                 <div className='projects__list'>
                     <div className='projects__item'>
                         <div className='projects__item--img--top'>
-                            <img className='projects__image' src={thebooknook} />
+                            <a href='https://book-nook-app.herokuapp.com/' target="_blank" rel="noreferrer noopener">
+                                <img className='projects__image' src={thebooknook} />
+                            </a>
                         </div>
                         <div className='projects__item--desc'>
-                            <div className='projects__subtitle'>The Book Nook</div>
+                            <div className='projects__subtitle'>
+                                <a href='https://book-nook-app.herokuapp.com/' target="_blank" rel="noreferrer noopener" className="anchor__title">
+                                    The Book Nook
+                                </a>
+                            </div>
                             <div className='projects__description'>A book club manager that helps communities stay organized. It offers a space for members to socialize and stay up to date so that they can read more, discuss more, and stress less. Club members can also stay in touch through live discussion channels.</div>
                             <div className='projects__technologies'>
                                 <ul>
@@ -38,7 +44,9 @@ function Projects() {
                             </div>
                         </div>
                         <div className='projects__item--img'>
-                            <img className='projects__image' src={thebooknook} />
+                            <a href='https://book-nook-app.herokuapp.com/' target="_blank" rel="noreferrer noopener">
+                                <img className='projects__image' src={thebooknook} />
+                            </a>
                         </div>
                     </div>
                     <div className='projects__dividers--left'>
@@ -47,13 +55,21 @@ function Projects() {
                     </div>
                     <div className='projects__item'>
                         <div className='projects__item--img--top'>
-                            <img className='projects__image' src={carpediem} />
+                            <a href='https://carpe-diem-app.herokuapp.com/' target="_blank" rel="noreferrer noopener">
+                                <img className='projects__image' src={carpediem} />
+                            </a>
                         </div>
                         <div className='projects__item--img'>
-                            <img className='projects__image' src={carpediem} />
+                            <a href='https://carpe-diem-app.herokuapp.com/' target="_blank" rel="noreferrer noopener">
+                                <img className='projects__image' src={carpediem} />
+                            </a>
                         </div>
                         <div className='projects__item--desc'>
-                            <div className='projects__subtitle'>Carpe Diem</div>
+                            <div className='projects__subtitle'>
+                                <a href='https://carpe-diem-app.herokuapp.com/' target="_blank" rel="noreferrer noopener" className="anchor__title">
+                                    Carpe Diem
+                                </a>
+                            </div>
                             <div className='projects__description'>An Eventbrite-inspired EDM events sharing and finding app that seeks to connect artists with their communities. Events can be published or saved as drafts, and attendees can bookmark the ones they are interested in.</div>
                             <div className='projects__technologies'>
                                 <ul>
@@ -81,10 +97,16 @@ function Projects() {
                     </div>
                     <div className='projects__item'>
                         <div className='projects__item--img--top'>
-                            <img className='projects__image' src={onetoten} />
+                            <a href='https://onetwoten.herokuapp.com/' target="_blank" rel="noreferrer noopener">
+                                <img className='projects__image' src={onetoten} />
+                            </a>
                         </div>
                         <div className='projects__item--desc'>
-                            <div className='projects__subtitle'>One-to-Ten</div>
+                            <div className='projects__subtitle'>
+                                <a href='https://onetwoten.herokuapp.com/' target="_blank" rel="noreferrer noopener" className="anchor__title">
+                                    One-to-Ten
+                                </a>
+                            </div>
                             <div className='projects__description'>A no-frills social experiment that asks users to be a little more honest, and a little more introspective. This personality surveying application essentially strips down dating apps to their most raw, basic purpose: matching users with whom they have the most similarities with.</div>
                             <div className='projects__technologies'>
                                 <ul>
@@ -106,7 +128,9 @@ function Projects() {
                             </div>
                         </div>
                         <div className='projects__item--img'>
-                            <img className='projects__image' src={onetoten} />
+                            <a href='https://github.com/JTannerShaw/One-to-Ten/' target="_blank" rel="noreferrer noopener">
+                                <img className='projects__image' src={onetoten} />
+                            </a>
                         </div>
                     </div>
                     <div className='projects__dividers--left'>
@@ -115,13 +139,21 @@ function Projects() {
                     </div>
                     <div className='projects__item'>
                         <div className='projects__item--img--top'>
-                            <img className='projects__image' src={tomoolist} />
+                            <a href='https://to-moo-list.herokuapp.com/' target="_blank" rel="noreferrer noopener">
+                                <img className='projects__image' src={tomoolist} />
+                            </a>
                         </div>
                         <div className='projects__item--img'>
-                            <img className='projects__image' src={tomoolist} />
+                            <a href='https://to-moo-list.herokuapp.com/' target="_blank" rel="noreferrer noopener">
+                                <img className='projects__image' src={tomoolist} />
+                            </a>
                         </div>
                         <div className='projects__item--desc'>
-                            <div className='projects__subtitle'>To-Moo List</div>
+                            <div className='projects__subtitle'>
+                                <a href='https://to-moo-list.herokuapp.com/' target="_blank" rel="noreferrer noopener" className="anchor__title">
+                                    To-Moo List
+                                </a>
+                            </div>
                             <div className='projects__description'>An errand tracking app that allows users to create tasks, organize them into tasklists, then add additional information like prioritization, due dates, and details. This single-page application was built on vanilla JavaScript.</div>
                             <div className='projects__technologies'>
                                 <ul>

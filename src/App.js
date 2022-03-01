@@ -14,12 +14,14 @@ function App() {
 				<ParallaxLayer
 					offset={0}
 					id='container__one'
+					factor={1}
 					speed={0.5}
 					style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
 					<Splash />
 				</ParallaxLayer>
 				<ParallaxLayer
 					id='container__two'
+					factor={1}
 					offset={1}
 					speed={0.2}
 					style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
@@ -27,6 +29,7 @@ function App() {
 				</ParallaxLayer>
 				<ParallaxLayer
 					id='container__three'
+					factor={1}
 					offset={2}
 					speed={0.2}
 					style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
@@ -34,8 +37,8 @@ function App() {
 				</ParallaxLayer>
 				<ParallaxLayer
 					id='container__four'
-					factor={8}
-					offset={1}
+					factor={6}
+					offset={1.5}
 					speed={0.2}
 					style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
 					<Projects />

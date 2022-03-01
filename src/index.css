@@ -41,10 +41,23 @@ a.anchor__normal {
   font-weight: 600;
   text-decoration: none;
   border-bottom: 1px solid var(--accent-5);
+  transition: 0.3s;
 }
 
 a.anchor__normal:hover {
   color: var(--accent-1);
   border-bottom: 1px solid var(--accent-1);
+  transition: var(--anchor-transition);
+}
+
+a.anchor__title {
+  color: var(--accent-2);
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a.anchor__title:hover {
+  color: var(--accent-1);
   transition: var(--anchor-transition);
 }
