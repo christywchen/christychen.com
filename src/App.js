@@ -10,7 +10,7 @@ import Technologies from './components/Technologies/Technologies';
 function App() {
 	return (
 		<>
-			<Parallax pages={5} style={{ top: 0, left: 0 }}>
+			<Parallax pages={7} style={{ top: 0, left: 0 }}>
 				<ParallaxLayer
 					offset={0}
 					id='container__one'
@@ -34,15 +34,11 @@ function App() {
 				</ParallaxLayer>
 				<ParallaxLayer
 					id='container__four'
-					offset={3.5}
+					factor={6}
+					offset={1.8}
 					speed={0.2}
 					style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
 					<Projects />
-				</ParallaxLayer>
-				<ParallaxLayer
-					id='container__five'
-					offset={4}
-					speed={0.2}>
 				</ParallaxLayer>
 			</Parallax>
 			<Routes>

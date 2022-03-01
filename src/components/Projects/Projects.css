@@ -77,7 +77,7 @@
 }
 
 .projects__divider {
-    height: 8px;
+    height: 7px;
     margin: 15px 0;
     border: none;
 }
@@ -89,7 +89,7 @@
 
 .projects__divider--2 {
     width: 80%;
-    background-color: var(--accent-5);
+    background-color: var(--accent-2);
 }
 
 @media (max-width: 999px) {

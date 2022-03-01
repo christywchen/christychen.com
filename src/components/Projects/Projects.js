@@ -35,10 +35,10 @@ function Projects() {
                         <hr className='projects__divider projects__divider--2' />
                     </div>
                     <div className='projects__item'>
-                        <div>
+                        <div className='projects__item--img'>
                             <img className='projects__image' src={carpediem} />
                         </div>
-                        <div>
+                        <div className='projects__item--desc'>
                             <div className='projects__subtitle'>Carpe Diem</div>
                             <div className='projects__description'>An Eventbrite-inspired EDM events sharing and finding app that seeks to connect artists with their communities. Events can be published or saved as drafts, and attendees can bookmark the ones they are interested in.</div>
                             <div className='projects__technologies'>
@@ -58,7 +58,7 @@ function Projects() {
                         <hr className='projects__divider projects__divider--2' />
                     </div>
                     <div className='projects__item'>
-                        <div>
+                        <div className='projects__item--desc'>
                             <div className='projects__subtitle'>One-to-Ten</div>
                             <div className='projects__description'>A no-frills social experiment that asks users to be a little more honest, and a little more introspective. This personality surveying application essentially strips down dating apps to their most raw, basic purpose: matching users with whom they have the most similarities with.</div>
                             <div className='projects__technologies'>
@@ -72,7 +72,7 @@ function Projects() {
                                 </ul>
                             </div>
                         </div>
-                        <div>
+                        <div className='projects__item--img'>
                             <img className='projects__image' src={onetoten} />
                         </div>
                     </div>
@@ -81,10 +81,10 @@ function Projects() {
                         <hr className='projects__divider projects__divider--2' />
                     </div>
                     <div className='projects__item'>
-                        <div>
+                        <div className='projects__item--img'>
                             <img className='projects__image' src={tomoolist} />
                         </div>
-                        <div>
+                        <div className='projects__item--desc'>
                             <div className='projects__subtitle'>To-Moo List</div>
                             <div className='projects__description'>An errand tracking app that allows users to create tasks, organize them into tasklists, then add additional information like prioritization, due dates, and details. This single-page application was built on vanilla JavaScript.</div>
                             <div className='projects__technologies'>
