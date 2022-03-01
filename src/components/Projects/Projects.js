@@ -19,7 +19,7 @@ function Projects() {
 
                         Project 1
                     </div>
-                    {/* <div className='projects__item'>
+                    <div className='projects__item'>
                         <img className='projects__image' src={tomoolist} />
 
                         Project 1
@@ -28,7 +28,7 @@ function Projects() {
                         <img className='projects__image' src={tomoolist} />
 
                         Project 1
-                    </div> */}
+                    </div>
                 </div>
             </div >
         </>

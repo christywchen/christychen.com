@@ -1,15 +1,16 @@
 import { Routes, Route } from 'react-router-dom';
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 
-import Splash from './components/Splash';
-import Profile from './components/Profile';
-import Projects from './components/Projects';
+import Splash from './components/Splash/Splash';
+import Profile from './components/Profile/Profile';
+import Projects from './components/Projects/Projects';
 import './App.css';
+import Technologies from './components/Technologies/Technologies';
 
 function App() {
 	return (
 		<>
-			<Parallax pages={3} style={{ top: 0, left: 0 }}>
+			<Parallax pages={5} style={{ top: 0, left: 0 }}>
 				<ParallaxLayer
 					offset={0}
 					id='container__one'
@@ -20,14 +21,28 @@ function App() {
 				<ParallaxLayer
 					id='container__two'
 					offset={1}
-					speed={0.2}>
+					speed={0.2}
+					style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
 					<Profile />
 				</ParallaxLayer>
 				<ParallaxLayer
-					id='container__two'
-					offset={2}
-					speed={0.2}>
+					id='container__three'
+					offset={1.8}
+					speed={0.2}
+					style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+					<Technologies />
+				</ParallaxLayer>
+				<ParallaxLayer
+					id='container__four'
+					offset={3.5}
+					speed={0.2}
+					style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
 					<Projects />
+				</ParallaxLayer>
+				<ParallaxLayer
+					id='container__five'
+					offset={4}
+					speed={0.2}>
 				</ParallaxLayer>
 			</Parallax>
 			<Routes>
