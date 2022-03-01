@@ -25,6 +25,14 @@ function Projects() {
                                     <li>Deployed via Docker</li>
                                 </ul>
                             </div>
+                            <div className='projects__links'>
+                                <a href='https://github.com/christywchen/the-book-nook/' target="_blank" rel="noreferrer noopener" className="anchor__normal">
+                                    Github
+                                </a>
+                                <a href='https://book-nook-app.herokuapp.com/' target="_blank" rel="noreferrer noopener" className="anchor__normal">
+                                    Live Demo
+                                </a>
+                            </div>
                         </div>
                         <div className='projects__item--img'>
                             <img className='projects__image' src={thebooknook} />
@@ -51,6 +59,14 @@ function Projects() {
                                     <li>PostgreSQL</li>
                                 </ul>
                             </div>
+                            <div className='projects__links'>
+                                <a href='https://github.com/christywchen/carpe-diem/' target="_blank" rel="noreferrer noopener" className="anchor__normal">
+                                    Github
+                                </a>
+                                <a href='https://carpe-diem-app.herokuapp.com/' target="_blank" rel="noreferrer noopener" className="anchor__normal">
+                                    Live Demo
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div className='projects__dividers--right'>
@@ -70,6 +86,14 @@ function Projects() {
                                     <li>PostgreSQL</li>
                                     <li>Deployed via Docker</li>
                                 </ul>
+                            </div>
+                            <div className='projects__links'>
+                                <a href='https://github.com/JTannerShaw/One-to-Ten/' target="_blank" rel="noreferrer noopener" className="anchor__normal">
+                                    Github
+                                </a>
+                                <a href='https://onetwoten.herokuapp.com/' target="_blank" rel="noreferrer noopener" className="anchor__normal">
+                                    Live Demo
+                                </a>
                             </div>
                         </div>
                         <div className='projects__item--img'>
@@ -95,6 +119,14 @@ function Projects() {
                                     <li>Sequelize</li>
                                     <li>PostgreSQL</li>
                                 </ul>
+                            </div>
+                            <div className='projects__links'>
+                                <a href='https://github.com/PeterShinnn/To-Moo-List/' target="_blank" rel="noreferrer noopener" className="anchor__normal">
+                                    Github
+                                </a>
+                                <a href='https://to-moo-list.herokuapp.com/' target="_blank" rel="noreferrer noopener" className="anchor__normal">
+                                    Live Demo
+                                </a>
                             </div>
                         </div>
                     </div>
