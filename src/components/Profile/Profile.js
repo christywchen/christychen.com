@@ -20,7 +20,6 @@ function Profile() {
                             </p>
                         </div>
                         <div className='profile__links'>
-                            {/* <a href='' target="_blank" rel="noreferrer noopener" className="anchor__normal">Resume</a> */}
                             <a href='https://github.com/christywchen' target="_blank" rel="noreferrer noopener" className="anchor__normal">Github</a>
                             <a href='https://www.linkedin.com/in/christywchen' target="_blank" rel="noreferrer noopener" className="anchor__normal">LinkedIn</a>
                             <a href='https://angel.co/u/christy-chen' target="_blank" rel="noreferrer noopener" className="anchor__normal">AngelList</a>
@@ -28,6 +27,7 @@ function Profile() {
                         </div>
                     </div>
                     <div className='profile__image profile__image--normal'></div>
+                    <div className='profile__divider'></div>
                 </div>
             </section>
         </>

@@ -1,10 +1,13 @@
 #main__container {
     position: absolute;
     padding-top: calc(100vh + 40vh);
+}
+
+#main__content {
     display: flex;
-    padding-bottom: 40vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    grid-gap: 500px;
+    padding-bottom: 40vh;
+    grid-gap: 300px;
 }

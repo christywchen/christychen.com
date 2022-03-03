@@ -61,3 +61,21 @@ a.anchor__title:hover {
   color: var(--accent-1);
   transition: var(--anchor-transition);
 }
+
+.profile__divider {
+  background-color: var(--accent-3);
+  width: 50%;
+  height: 10px;
+  -webkit-clip-path: polygon(0 0, 97% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(0 0, 97% 0, 100% 100%, 0% 100%);
+}
+
+.technologies__divider,
+.contact__divider {
+  background-color: var(--accent-5);
+  width: 60%;
+  height: 10px;
+  margin-top: 20px;
+  -webkit-clip-path: polygon(5% 0, 100% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(5% 0, 100% 0, 100% 100%, 0% 100%);
+}

@@ -22,7 +22,7 @@ function Projects() {
                                     The Book Nook
                                 </a>
                             </div>
-                            <div className='projects__description'>A book club manager that helps communities stay organized. It offers a space for members to socialize and stay up to date so that they can read more, discuss more, and stress less. Club members can also stay in touch through live discussion channels.</div>
+                            <div className='projects__description'>A book club manager that helps communities get organized and stay in touch via live chat. It's a space for members to socialize and stay up to date so that they can read more, discuss more, and stress less.</div>
                             <div className='projects__technologies'>
                                 <ul>
                                     <li>Flask</li>
@@ -107,7 +107,7 @@ function Projects() {
                                     One-to-Ten
                                 </a>
                             </div>
-                            <div className='projects__description'>A no-frills social experiment that asks users to be a little more honest, and a little more introspective. This personality surveying application essentially strips down dating apps to their most raw, basic purpose: matching users with whom they have the most similarities with.</div>
+                            <div className='projects__description'>A no-frills social experiment that asks users to be a little more honest, and a little more introspective. This personality surveying application strips down dating apps to their most raw, basic form: matching users with whom they share the most similarities with.</div>
                             <div className='projects__technologies'>
                                 <ul>
                                     <li>Flask</li>
@@ -154,7 +154,7 @@ function Projects() {
                                     To-Moo List
                                 </a>
                             </div>
-                            <div className='projects__description'>An errand tracking app that allows users to create tasks, organize them into tasklists, then add additional information like prioritization, due dates, and details. This single-page application was built on vanilla JavaScript.</div>
+                            <div className='projects__description'>An errand tracking app that allows users to create tasks, organize them into tasklists, then add additional information like priority level, due dates, and details. This single-page application was built on vanilla JavaScript.</div>
                             <div className='projects__technologies'>
                                 <ul>
                                     <li>Express</li>

@@ -13,6 +13,7 @@ function Contact() {
                     <a href='https://angel.co/u/christy-chen' target="_blank" rel="noreferrer noopener" className="anchor__normal">AngelList</a>
                     <a href='mailto:christy.w.chen@gmail.com' target="_blank" rel="noreferrer noopener" className="anchor__normal">Email</a>
                 </div>
+                <div className='contact__divider'></div>
             </section>
         </>
     )

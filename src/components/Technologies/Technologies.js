@@ -26,6 +26,7 @@ function Technologies() {
                         </ul>
                     </div>
                 </div>
+                <div className='technologies__divider'></div>
             </section>
         </>
     )
