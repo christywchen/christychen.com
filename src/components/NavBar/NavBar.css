@@ -1,0 +1,21 @@
+#navbar__container {
+    /* background-color: var(--accent-1); */
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    padding: 20px;
+}
+
+#navbar__container ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    gap: 30px;
+    font-weight: 600;
+    font-size: 0.9em;
+}
+
+#navbar__container li {
+    cursor: pointer;
+}

@@ -1,3 +1,4 @@
+import NavBar from '../NavBar/NavBar';
 import Profile from '../Profile/Profile';
 import Projects from '../Projects/Projects';
 import Technologies from '../Technologies/Technologies';

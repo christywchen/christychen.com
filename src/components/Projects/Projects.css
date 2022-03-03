@@ -1,4 +1,6 @@
 #projects__container {
+    margin-top: -100px;
+    padding-top: 100px;
     width: 75%;
 }
 

@@ -1,6 +1,6 @@
 #main__container {
     position: absolute;
-    top: calc(100vh + 40vh);
+    padding-top: calc(100vh + 40vh);
     display: flex;
     padding-bottom: 40vh;
     flex-direction: column;
