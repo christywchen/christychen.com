@@ -1,6 +1,6 @@
 #main__container {
     position: absolute;
-    padding-top: calc(100vh + 40vh);
+    padding-top: 40vh;
 }
 
 #main__content {
