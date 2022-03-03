@@ -154,7 +154,7 @@ function Projects() {
                                     To-Moo List
                                 </a>
                             </div>
-                            <div className='projects__description'>An errand tracking app that allows users to create tasks, organize them into tasklists, then add additional information like priority level, due dates, and details. This single-page application was built on vanilla JavaScript.</div>
+                            <div className='projects__description'>An errand tracking app that allows users to create tasks, organize them into tasklists, then add additional information like priority level, due dates, and details. This single-page application was built using vanilla JavaScript.</div>
                             <div className='projects__technologies'>
                                 <ul>
                                     <li>Express</li>
