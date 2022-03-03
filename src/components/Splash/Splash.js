@@ -214,7 +214,7 @@ function Splash() {
                         </p>
                     </div>
                     <div id='splash__cta'>
-                        <Link to='/' onClick={handleClick}>Enter</Link>
+                        <Link to='/' onClick={handleClick}>More</Link>
                     </div>
                 </animated.div>
                 <animated.div style={tripleLines} id='splash__lines'>

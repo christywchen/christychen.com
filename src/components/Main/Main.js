@@ -1,8 +1,10 @@
 import Contact from '../Contact/Contact';
 import Footer from '../Footer/Footer';
+import NavBar from '../NavBar/NavBar';
 import Profile from '../Profile/Profile';
 import Projects from '../Projects/Projects';
 import Technologies from '../Technologies/Technologies';
+
 import './Main.css';
 
 function Main() {
