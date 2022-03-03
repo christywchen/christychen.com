@@ -1,0 +1,32 @@
+#navbar__container {
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100vh;
+    width: fit-content;
+    padding: 75px;
+}
+
+#navbar__container ul {
+    width: min(500px, 10vw);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    list-style-type: none;
+    gap: 30px;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+#navbar__container li {
+    color: var(--accent-5);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#navbar__container li:hover {
+    color: var(--accent-1);
+}

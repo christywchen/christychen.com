@@ -1,0 +1,13 @@
+#main__container {
+    position: absolute;
+    padding-top: 40vh;
+}
+
+#main__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40vh;
+    grid-gap: 300px;
+}

@@ -4,6 +4,7 @@ import { useSpring, useChain, animated, useSpringRef } from 'react-spring'
 
 import github from '../../assets/github.svg';
 import linkedin from '../../assets/linkedin.svg';
+import NavBar from '../NavBar/NavBar';
 
 import './Splash.css';
 
@@ -186,12 +187,21 @@ function Splash() {
         ref: textBlockRef
     })
 
-
     useChain([vertLineRef, triangle3Ref, triangle1Ref, triangle2Ref, squigglyLinesRef]);
-    useChain([cylinder1Ref, cylinder2Ref, cylinder3Ref, tripleLinesRef, textBlockRef])
+    useChain([cylinder1Ref, cylinder2Ref, cylinder3Ref, tripleLinesRef, textBlockRef]);
+
+    async function handleClick(e) {
+        e.preventDefault();
+
+        const element = document.getElementById("profile__container");
+        element.scrollIntoView({ alignToTop: 'true', block: 'center', behavior: 'smooth' });
+    }
 
     return (
         <>
+            <animated.div style={textBlock}>
+                <NavBar />
+            </animated.div>
             <div id='splash__main'>
                 <animated.div style={textBlock} id='splash__text'>
                     <div id='splash__title'>Hi! I'm Christy.</div>
@@ -200,11 +210,11 @@ function Splash() {
                             I tell stories through code.
                         </p>
                         <p>
-                            Let's build something to make the world a better place.
+                            Let's build something to add some positivity to the world.
                         </p>
                     </div>
                     <div id='splash__cta'>
-                        <Link to='/home'>Enter</Link>
+                        <Link to='/' onClick={handleClick}>More</Link>
                     </div>
                 </animated.div>
                 <animated.div style={tripleLines} id='splash__lines'>

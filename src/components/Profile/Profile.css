@@ -1,5 +1,8 @@
 #profile__container {
-    width: max(50vw, 1010px, 58%);
+    width: max(50vw, 950px, 58%);
+    display: "flex";
+    justify-content: "center";
+    align-items: "center";
 }
 
 .profile__container--content {
@@ -19,7 +22,7 @@
 }
 
 .profile__header {
-    margin: 10px 0 20px;
+    margin: 10px 0 30px;
     color: var(--accent-1);
     font-family: var(--body-font);
     font-size: 3em;
@@ -30,8 +33,8 @@
     background-image: url("../../assets/christy.jpg");
     background-size: cover;
     border-radius: 3px 3px 0 0;
-    height: max(18vw, 340px);
-    width: max(18vw, 340px);
+    height: max(18vw, 300px);
+    width: max(18vw, 300px);
     border-radius: 100%;
 }
 
