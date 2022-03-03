@@ -13,7 +13,7 @@ function Projects() {
                     <div className='projects__item'>
                         <div className='projects__item--img--top'>
                             <a href='https://book-nook-app.herokuapp.com/' target="_blank" rel="noreferrer noopener">
-                                <img className='projects__image' src={thebooknook} />
+                                <img className='projects__image' alt='The Book Nook' src={thebooknook} />
                             </a>
                         </div>
                         <div className='projects__item--desc'>
@@ -45,7 +45,7 @@ function Projects() {
                         </div>
                         <div className='projects__item--img'>
                             <a href='https://book-nook-app.herokuapp.com/' target="_blank" rel="noreferrer noopener">
-                                <img className='projects__image' src={thebooknook} />
+                                <img className='projects__image' alt='The Book Nook' src={thebooknook} />
                             </a>
                         </div>
                     </div>
@@ -56,12 +56,12 @@ function Projects() {
                     <div className='projects__item'>
                         <div className='projects__item--img--top'>
                             <a href='https://carpe-diem-app.herokuapp.com/' target="_blank" rel="noreferrer noopener">
-                                <img className='projects__image' src={carpediem} />
+                                <img className='projects__image' alt='Carpe Diem' src={carpediem} />
                             </a>
                         </div>
                         <div className='projects__item--img'>
                             <a href='https://carpe-diem-app.herokuapp.com/' target="_blank" rel="noreferrer noopener">
-                                <img className='projects__image' src={carpediem} />
+                                <img className='projects__image' alt='Carpe Diem' src={carpediem} />
                             </a>
                         </div>
                         <div className='projects__item--desc'>
@@ -98,7 +98,7 @@ function Projects() {
                     <div className='projects__item'>
                         <div className='projects__item--img--top'>
                             <a href='https://onetwoten.herokuapp.com/' target="_blank" rel="noreferrer noopener">
-                                <img className='projects__image' src={onetoten} />
+                                <img className='projects__image' alt='One-to-Ten' src={onetoten} />
                             </a>
                         </div>
                         <div className='projects__item--desc'>
@@ -129,7 +129,7 @@ function Projects() {
                         </div>
                         <div className='projects__item--img'>
                             <a href='https://github.com/JTannerShaw/One-to-Ten/' target="_blank" rel="noreferrer noopener">
-                                <img className='projects__image' src={onetoten} />
+                                <img className='projects__image' alt='One-to-Ten' src={onetoten} />
                             </a>
                         </div>
                     </div>
@@ -140,12 +140,12 @@ function Projects() {
                     <div className='projects__item'>
                         <div className='projects__item--img--top'>
                             <a href='https://to-moo-list.herokuapp.com/' target="_blank" rel="noreferrer noopener">
-                                <img className='projects__image' src={tomoolist} />
+                                <img className='projects__image' alt='To-Moo List' src={tomoolist} />
                             </a>
                         </div>
                         <div className='projects__item--img'>
                             <a href='https://to-moo-list.herokuapp.com/' target="_blank" rel="noreferrer noopener">
-                                <img className='projects__image' src={tomoolist} />
+                                <img className='projects__image' alt='To-Moo List' src={tomoolist} />
                             </a>
                         </div>
                         <div className='projects__item--desc'>

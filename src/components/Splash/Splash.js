@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useSpring, useChain, animated, useSpringRef } from 'react-spring'
 
@@ -224,10 +223,10 @@ function Splash() {
                 </animated.div>
                 <animated.div style={textBlock} id='splash__social'>
                     <a href='https://github.com/christywchen/' target="_blank" rel="noreferrer noopener">
-                        <img className='splash__social--icon' src={github} />
+                        <img className='splash__social--icon' alt='github' src={github} />
                     </a>
                     <a href='https://www.linkedin.com/in/christy-chen/' target="_blank" rel="noreferrer noopener">
-                        <img className='splash__social--icon' src={linkedin} />
+                        <img className='splash__social--icon' alt='linkedin' src={linkedin} />
                     </a>
                 </animated.div>
             </div>

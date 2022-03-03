@@ -6,17 +6,16 @@
     flex-direction: column;
     justify-content: flex-end;
     height: 100vh;
-    width: fit-content;
+    min-width: fit-content;
     padding: 75px;
 }
 
 #navbar__container ul {
-    width: min(500px, 10vw);
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     list-style-type: none;
-    gap: 30px;
+    gap: 40px;
     font-weight: 600;
     font-size: 1.1em;
 }
