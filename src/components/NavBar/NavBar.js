@@ -35,7 +35,7 @@ function NavBar() {
                         03. Projects
                     </li>
                     <li onClick={handleContact}>
-                        03. Projects
+                        04. Contact
                     </li>
                 </ul>
             </div>

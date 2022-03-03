@@ -1,4 +1,4 @@
-import NavBar from '../NavBar/NavBar';
+import Contact from '../Contact/Contact';
 import Profile from '../Profile/Profile';
 import Projects from '../Projects/Projects';
 import Technologies from '../Technologies/Technologies';
@@ -11,6 +11,7 @@ function Main() {
                 <Profile />
                 <Technologies />
                 <Projects />
+                <Contact />
             </div>
         </>
     )
