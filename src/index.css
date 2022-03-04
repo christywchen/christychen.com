@@ -65,6 +65,7 @@ a.anchor__title:hover {
 .profile__divider {
   background-color: var(--accent-3);
   width: 50%;
+  margin-top: 25px;
   height: 10px;
   -webkit-clip-path: polygon(0 0, 97% 0, 100% 100%, 0% 100%);
   clip-path: polygon(0 0, 97% 0, 100% 100%, 0% 100%);
@@ -78,4 +79,10 @@ a.anchor__title:hover {
   margin-top: 20px;
   -webkit-clip-path: polygon(5% 0, 100% 0, 100% 100%, 0% 100%);
   clip-path: polygon(5% 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+@media (max-width: 599px) {
+  .profile__divider {
+    width: 100%;
+  }
 }
