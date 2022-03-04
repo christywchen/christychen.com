@@ -27,8 +27,8 @@ function Profile() {
                         </div>
                     </div>
                     <div className='profile__image profile__image--normal'></div>
-                    <div className='profile__divider'></div>
                 </div>
+                <div className='profile__divider'></div>
             </section>
         </>
     )

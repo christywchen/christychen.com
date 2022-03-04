@@ -198,54 +198,63 @@ function Splash() {
 
     return (
         <>
-            <animated.div style={textBlock}>
-                <NavBar />
-            </animated.div>
-            <div id='splash__main'>
-                <animated.div style={textBlock} id='splash__text'>
-                    <div id='splash__title'>Hi! I'm Christy.</div>
-                    <div id='splash__desc'>
-                        <p>
-                            I tell stories through code.
-                        </p>
-                        <p>
-                            Let's build something to add some positivity to the world.
-                        </p>
+            <div id='splash__container'>
+                <div id='splash__main'>
+                    <animated.div style={textBlock} id='splash__text'>
+                        <div id='splash__title'>Hi! I'm Christy.</div>
+                        <div id='splash__desc'>
+                            <p>
+                                I tell stories through code.
+                            </p>
+                            <p>
+                                Let's build something and make a positive impact.
+                            </p>
+                        </div>
+                        <div id='splash__cta'>
+                            <Link to='/' onClick={handleClick}>More</Link>
+                        </div>
+                    </animated.div>
+
+                    <div id='splash__social--lines'>
+
+                        <animated.div style={tripleLines} id='splash__lines'>
+                            <div className='splash__line'></div>
+                            <div className='splash__line'></div>
+                            <div className='splash__line'></div>
+                        </animated.div>
+
+                        <animated.div style={textBlock} id='splash__social'>
+                            <a href='https://github.com/christywchen/' target="_blank" rel="noreferrer noopener">
+                                <img className='splash__social--icon' alt='github' src={github} />
+                            </a>
+                            <a href='https://www.linkedin.com/in/christy-chen/' target="_blank" rel="noreferrer noopener">
+                                <img className='splash__social--icon' alt='linkedin' src={linkedin} />
+                            </a>
+                        </animated.div>
                     </div>
-                    <div id='splash__cta'>
-                        <Link to='/' onClick={handleClick}>More</Link>
-                    </div>
+                </div>
+                <div id='splash__cylinders'>
+                    <animated.div style={cylinder1} className='splash__cylinder splash__cylinder--1'></animated.div>
+                    <animated.div style={cylinder2} className='splash__cylinder splash__cylinder--2'></animated.div>
+                    <animated.div style={cylinder3} className='splash__cylinder splash__cylinder--3'></animated.div>
+                </div>
+                <animated.div style={squigglyLines} id='splash__squiggly'>
+                    <div className='splash__squiggly--ellipse-1'></div>
+                    <div className='splash__squiggly--ellipse-1 splash__squiggly--ellipse-2'></div>
                 </animated.div>
-                <animated.div style={tripleLines} id='splash__lines'>
-                    <div className='splash__line'></div>
-                    <div className='splash__line'></div>
-                    <div className='splash__line'></div>
-                </animated.div>
-                <animated.div style={textBlock} id='splash__social'>
-                    <a href='https://github.com/christywchen/' target="_blank" rel="noreferrer noopener">
-                        <img className='splash__social--icon' alt='github' src={github} />
-                    </a>
-                    <a href='https://www.linkedin.com/in/christy-chen/' target="_blank" rel="noreferrer noopener">
-                        <img className='splash__social--icon' alt='linkedin' src={linkedin} />
-                    </a>
+                <div id='splash__verticals'>
+                    <animated.div style={triangle3} id='splash__triangle--3'></animated.div>
+                    <animated.div style={vertLine} id='splash__vertbar'></animated.div>
+                    <animated.div style={circle} id='splash__circle'></animated.div>
+                </div>
+                <div id='splash__triangles'>
+                    <animated.div style={triangle1} id='splash__triangle--1'></animated.div>
+                    <animated.div style={triangle2} id='splash__triangle--2'></animated.div>
+                </div>
+                <animated.div style={textBlock}>
+                    <NavBar />
                 </animated.div>
             </div>
-            <div id='splash__cylinders'>
-                <animated.div style={cylinder1} className='splash__cylinder splash__cylinder--1'></animated.div>
-                <animated.div style={cylinder2} className='splash__cylinder splash__cylinder--2'></animated.div>
-                <animated.div style={cylinder3} className='splash__cylinder splash__cylinder--3'></animated.div>
-            </div>
-            <animated.div style={squigglyLines} id='splash__squiggly'>
-                <div className='splash__squiggly--ellipse-1'></div>
-                <div className='splash__squiggly--ellipse-1 splash__squiggly--ellipse-2'></div>
-            </animated.div>
-            <animated.div style={triangle3} id='splash__triangle--3'></animated.div>
-            <div id='splash__verticals'>
-                <animated.div style={vertLine} id='splash__vertbar'></animated.div>
-                <animated.div style={circle} id='splash__circle'></animated.div>
-            </div>
-            <animated.div style={triangle1} id='splash__triangle--1'></animated.div>
-            <animated.div style={triangle2} id='splash__triangle--2'></animated.div>
         </>
     )
 }
