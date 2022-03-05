@@ -30,6 +30,8 @@ body {
   overflow-x: hidden;
   font-weight: 300;
   letter-spacing: 0.2px;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 p {
