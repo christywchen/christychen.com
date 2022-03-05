@@ -27,11 +27,9 @@ body {
   font-size: 16px;
   line-height: 1.5em;
   background-color: var(--bg-color);
-  overflow-x: hidden;
+  overflow-y: scroll;
   font-weight: 300;
   letter-spacing: 0.2px;
-  width: 100vw;
-  overflow-x: hidden;
 }
 
 p {
