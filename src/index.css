@@ -28,6 +28,7 @@ body {
   line-height: 1.5em;
   background-color: var(--bg-color);
   overflow-y: scroll;
+  overflow-x: hidden;
   font-weight: 300;
   letter-spacing: 0.2px;
 }
