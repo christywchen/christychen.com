@@ -1,10 +1,12 @@
 # Christy Chen - My Portfolio
 
-A passion project I undertook as a means of creative expression and to challenge myself to experiment with the [react-spring](https://react-spring.io/) animation library. I also took on the challenge of deploying on AWS EC2 for the first time as well as setting up SSL certifications.
+A passion project I undertook as a means of creative expression and to challenge myself to experiment with the [react-spring](https://react-spring.io/) animation library. I also took on the challenge of deploying on AWS EC2 for the first time as well as set up SSL certifications through CertBot.
 
 This project also serves as a showcase for the projects I've worked on.
 
-View the live site [here](https://www.christychen.com/).
+View the live site on desktop [here](https://www.christychen.com/). 
+
+Mobile compatibility is currently in the works.
 
 ![christy-chen](https://user-images.githubusercontent.com/55429132/156850275-0e50e288-87f3-43e2-8a0b-64886edf4d01.png)
 
