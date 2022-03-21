@@ -204,7 +204,7 @@ function Splash() {
                         <div id='splash__title'>Hi! I'm Christy.</div>
                         <div id='splash__desc'>
                             <p>
-                                I tell stories through code.
+                                I'm a software engineer and I tell stories through the products I create.
                             </p>
                             <p>
                                 Let's build something and make a positive impact.
@@ -214,15 +214,12 @@ function Splash() {
                             <Link to='/' onClick={handleClick}>More</Link>
                         </div>
                     </animated.div>
-
                     <div id='splash__social--lines'>
-
                         <animated.div style={tripleLines} id='splash__lines'>
                             <div className='splash__line'></div>
                             <div className='splash__line'></div>
                             <div className='splash__line'></div>
                         </animated.div>
-
                         <animated.div style={textBlock} id='splash__social'>
                             <a href='https://github.com/christywchen/' target="_blank" rel="noreferrer noopener">
                                 <img className='splash__social--icon' alt='github' src={github} />
@@ -232,6 +229,9 @@ function Splash() {
                             </a>
                         </animated.div>
                     </div>
+                    <animated.div style={textBlock} id='splash__navbar'>
+                        <NavBar />
+                    </animated.div>
                 </div>
                 <div id='splash__cylinders'>
                     <animated.div style={cylinder1} className='splash__cylinder splash__cylinder--1'></animated.div>
@@ -251,9 +251,6 @@ function Splash() {
                     <animated.div style={triangle1} id='splash__triangle--1'></animated.div>
                     <animated.div style={triangle2} id='splash__triangle--2'></animated.div>
                 </div>
-                <animated.div style={textBlock}>
-                    <NavBar />
-                </animated.div>
             </div>
         </>
     )

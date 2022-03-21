@@ -82,8 +82,11 @@ a.anchor__title:hover {
   clip-path: polygon(5% 0, 100% 0, 100% 100%, 0% 100%);
 }
 
-@media (max-width: 599px) {
+/* @media (max-width: 599px) {
   .profile__divider {
     width: 100%;
   }
+} */
+
+@media (min-width: 576px) {
 }

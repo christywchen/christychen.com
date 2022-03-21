@@ -218,7 +218,7 @@
     background-position: 0px -20px;
 }
 
-@media (max-width: 999px) {
+/* @media (max-width: 999px) {
     #splash__main {
         top: 28%;
         width: 320px;
@@ -227,13 +227,69 @@
     #splash__social {
         left: 45%;
     }
-}
+} */
 
-@media (max-width: 599px) {
+@media (min-width: 576px) {
     #splash__main {
-        top: 30%;
-        left: 16%;
-        width: 250px;
+        top: 36%;
+        left: 12%;
+        width: 62%;
+    }
+
+    #splash__title {
+        font-size: 5em;
+    }
+
+    #splash__desc,
+    #splash__cta {
+        margin-top: 15px;
+        padding-left: 3px;
+        font-size: 2.2em;
+        line-height: 1.4em;
+    }
+
+    #splash__verticals {
+        left: 80%;
+        height: 105vh;
+    }
+
+    #splash__social {
+        left: 35%;
+    }
+
+    #splash__social--lines {
+        gap: 20px;
+        padding-right: 30px;
+    }
+
+    #splash__triangle--1 {
+        border-left: 81vw solid transparent;
+        border-bottom: 40vh solid var(--accent-2);
+    }
+
+    #splash__triangle--2 {
+        border-left: 50vw solid transparent;
+        border-bottom: 25vh solid var(--accent-4);
+    }
+
+    #splash__triangle--3 {
+        top: 40vh;
+        margin-left: 60px;
+        border-top: 10vh solid transparent;
+        border-left: 20vw solid var(--accent-5);
+        border-bottom: 10vh solid transparent;
+    }
+
+    #splash__lines {
+        top: 58%;
+    }
+
+    #splash__cylinders {
+        position: absolute;
+        top: -350px;
+        left: 5vw;
+        width: 50vw;
+        gap: 3vw;
     }
 
     #splash__circle {
@@ -244,16 +300,7 @@
         height: 50vh;
     }
 
-    #splash__lines {
-        top: 58%;
-    }
-
-    #splash__social {
-        left: 35%;
-    }
-
-    #splash__social--lines {
-        gap: 20px;
-        padding-right: 30px;
+    #splash__squiggly {
+        left: 30vw;
     }
 }
