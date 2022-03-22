@@ -107,6 +107,11 @@
         margin: 10px 0 20px;
     }
 
+    .profile__image {
+        height: 30vw;
+        width: 30vw;
+    }
+
     .profile__links {
         gap: 20px 0;
     }
