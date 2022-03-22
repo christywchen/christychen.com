@@ -326,4 +326,8 @@
     #splash__title {
         font-size: 2em;
     }
+
+    #splash__squiggly {
+        top: 8vh;
+    }
 }
