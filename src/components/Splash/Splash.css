@@ -60,8 +60,8 @@
 }
 
 #splash__social--lines {
-    display: flex;
     height: fit-content;
+    display: flex;
     margin-top: 30px;
     gap: 30px;
 }
@@ -218,34 +218,21 @@
     background-position: 0px -20px;
 }
 
-/* @media (max-width: 999px) {
+@media only screen and (max-width: 992px) {
     #splash__main {
-        top: 28%;
-        width: 320px;
-    }
-
-    #splash__social {
-        left: 45%;
-    }
-} */
-
-@media (min-width: 576px) {
-    #splash__main {
-        top: 36%;
-        left: 12%;
-        width: 62%;
+        top: 32%;
+        left: 23%;
+        width: 50%;
     }
 
     #splash__title {
-        font-size: 5em;
+        font-size: 3.4em;
     }
 
     #splash__desc,
     #splash__cta {
-        margin-top: 15px;
-        padding-left: 3px;
-        font-size: 2.2em;
-        line-height: 1.4em;
+        font-size: 1.4em;
+        line-height: 1.6em;
     }
 
     #splash__verticals {
@@ -253,13 +240,10 @@
         height: 105vh;
     }
 
-    #splash__social {
-        left: 35%;
-    }
-
     #splash__social--lines {
+        margin-top: 20px;
+        padding: 0 0 0 3px;
         gap: 20px;
-        padding-right: 30px;
     }
 
     #splash__triangle--1 {
@@ -274,7 +258,7 @@
 
     #splash__triangle--3 {
         top: 40vh;
-        margin-left: 60px;
+        margin-left: 35px;
         border-top: 10vh solid transparent;
         border-left: 20vw solid var(--accent-5);
         border-bottom: 10vh solid transparent;
@@ -286,8 +270,7 @@
 
     #splash__cylinders {
         position: absolute;
-        top: -350px;
-        left: 5vw;
+        top: -140px;
         width: 50vw;
         gap: 3vw;
     }
@@ -301,6 +284,50 @@
     }
 
     #splash__squiggly {
+        top: 19vh;
         left: 30vw;
+    }
+}
+
+@media only screen and (max-width: 672px) {
+    #splash__main {
+        top: 36%;
+        left: 12%;
+        width: 59%;
+    }
+
+    #splash__title {
+        font-size: 2em;
+    }
+
+    #splash__desc,
+    #splash__cta {
+        margin-top: 10px;
+    }
+
+    #splash__desc,
+    #splash__cta {
+        font-size: 1em;
+        line-height: 1.4em;
+    }
+
+    #splash__triangle--3 {
+        margin-left: 25px;
+    }
+
+    #splash__squiggly {
+        top: 15vh;
+    }
+}
+
+@media only screen and (max-width: 384px) {
+    #splash__main {
+        top: 30%;
+        left: 10%;
+        width: 62%;
+    }
+
+    #splash__title {
+        font-size: 2em;
     }
 }
