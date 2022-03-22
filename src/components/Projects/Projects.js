@@ -31,6 +31,7 @@ function Projects() {
                                     <li>Redux</li>
                                     <li>PostgreSQL</li>
                                     <li>SocketIO</li>
+                                    <li>AWS S3</li>
                                     <li>Deployed via Docker</li>
                                 </ul>
                             </div>
@@ -79,6 +80,7 @@ function Projects() {
                                     <li>Redux</li>
                                     <li>Sequelize</li>
                                     <li>PostgreSQL</li>
+                                    <li>AWS S3</li>
                                 </ul>
                             </div>
                             <div className='projects__links'>
