@@ -38,3 +38,24 @@ ul.technologies__list li:before {
     color: var(--accent-2);
     font-size: 0.8em;
 }
+
+@media only screen and (max-width: 672px) {
+    #technologies__container {
+        width: 80%;
+    }
+
+    .technologies__desc {
+        text-align: center;
+    }
+
+    .technologies__container--content {
+        width: 95%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 30px;
+    }
+
+    ul.technologies__list {
+        margin: 0;
+    }
+}
