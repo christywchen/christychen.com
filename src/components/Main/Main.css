@@ -11,3 +11,10 @@
     padding-bottom: 40vh;
     grid-gap: 300px;
 }
+
+@media only screen and (max-width: 992px) {
+    #main__container {
+        padding-top: 300px;
+        top: 50vh;
+    }
+}

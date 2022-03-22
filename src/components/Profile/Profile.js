@@ -10,13 +10,13 @@ function Profile() {
                     <div className='profile__info'>
                         <div className='profile__text'>
                             <p>
-                                Having spent most of my life shuffling between the Bay Area and Los Angeles, I’ve always had a West Coast mentality. Rather than getting lost in the daily grind, I prefer seeking joy in the meaningful experiences of everyday life. For a while, I transformed my affinity for mindful living into a more complex skill: Crafting integrated online marketing campaigns that help brands tell meaningful, authentic stories.
+                                As a child of the West Coast, I've always had a mentality that matched the lifestyle. Rather than getting lost in the daily grind, I prefer seeking joy in the meaningful experiences of everyday life. For a while, I transformed my affinity for mindful living into a more complex skill: Crafting integrated online marketing campaigns that help brands tell meaningful, authentic stories.
                             </p>
                             <p>
                                 These days, I still tell stories and still seek to create, but my means has shifted.
                             </p>
                             <p>
-                                As a software engineer, my toolkit now includes a wide breadth of technologies and skills. In creating full-stack applications, I'm also leveraging my past experience in digital marketing, ecommerce, and analyzing user behavior to build things that bring joy to not only my world, but hopefully those of others as well.
+                                As a software engineer, my toolkit now includes a wide breadth of technologies and skills. In creating full-stack applications, I'm also leveraging my past experience in digital marketing, ecommerce, and studying user behavior as I seek to build things that bring joy to myself and those around me.
                             </p>
                         </div>
                         <div className='profile__links'>
