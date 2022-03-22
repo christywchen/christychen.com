@@ -17,7 +17,6 @@
 #splash__text {
     position: relative;
     width: fit-content;
-    /* left: 22%; */
     z-index: 1;
 }
 
@@ -144,11 +143,6 @@
     border-top: 20vh solid transparent;
     border-left: 20vw solid var(--accent-5);
     border-bottom: 20vh solid transparent;
-}
-
-#splash__lines {
-    position: relative;
-    width: 55%;
 }
 
 .splash__line {
@@ -280,7 +274,7 @@
     }
 
     #splash__squiggly {
-        top: 19vh;
+        top: 27vh;
         left: 30vw;
     }
 }
@@ -312,13 +306,13 @@
     }
 
     #splash__squiggly {
-        top: 15vh;
+        top: 25vh;
     }
 }
 
 @media only screen and (max-width: 384px) {
     #splash__main {
-        top: 28%;
+        top: 32%;
         left: 10%;
         width: 62%;
     }
@@ -327,7 +321,13 @@
         font-size: 2em;
     }
 
+    #splash__cylinders {
+        top: -160px;
+        width: 50vw;
+        gap: 3vw;
+    }
+
     #splash__squiggly {
-        top: 8vh;
+        top: 20vh;
     }
 }
