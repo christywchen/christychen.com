@@ -264,13 +264,9 @@
         border-bottom: 10vh solid transparent;
     }
 
-    #splash__lines {
-        top: 58%;
-    }
-
     #splash__cylinders {
         position: absolute;
-        top: -140px;
+        top: -160px;
         width: 50vw;
         gap: 3vw;
     }
@@ -291,7 +287,7 @@
 
 @media only screen and (max-width: 672px) {
     #splash__main {
-        top: 36%;
+        top: 34%;
         left: 12%;
         width: 59%;
     }
@@ -322,7 +318,7 @@
 
 @media only screen and (max-width: 384px) {
     #splash__main {
-        top: 30%;
+        top: 28%;
         left: 10%;
         width: 62%;
     }
