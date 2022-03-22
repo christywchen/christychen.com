@@ -19,3 +19,14 @@
 .contact__header--links {
     display: flex;
 }
+
+@media only screen and (max-width: 672px) {
+    #contact__container {
+        width: 85%;
+    }
+
+    .contact__header {
+        font-size: 2em;
+        margin: 10px 0px;
+    }
+}

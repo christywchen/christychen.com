@@ -44,6 +44,11 @@ ul.technologies__list li:before {
         width: 80%;
     }
 
+    .technologies__header {
+        font-size: 2em;
+        margin: 10px 0px;
+    }
+
     .technologies__desc {
         text-align: center;
     }

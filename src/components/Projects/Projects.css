@@ -124,6 +124,11 @@
         grid-gap: 30px;
     }
 
+    .projects__header {
+        font-size: 2em;
+        margin: 10px 0px 20px;
+    }
+
     .projects__item--desc {
         flex-grow: 0;
         flex-basis: auto;
