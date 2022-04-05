@@ -22,7 +22,7 @@ function Profile() {
                         <div className='profile__links'>
                             <a href='https://github.com/christywchen' target="_blank" rel="noreferrer noopener" className="anchor__normal">Github</a>
                             <a href='https://www.linkedin.com/in/christywchen' target="_blank" rel="noreferrer noopener" className="anchor__normal">LinkedIn</a>
-                            <a href='https://angel.co/u/christy-chen' target="_blank" rel="noreferrer noopener" className="anchor__normal">AngelList</a>
+                            <a href='https://angel.co/u/christywchen' target="_blank" rel="noreferrer noopener" className="anchor__normal">AngelList</a>
                             <a href='https://www.christychen.com/Chen_Christy_Resume_2022.pdf' target="_blank" rel="noreferrer noopener" className="anchor__normal">Resume</a>
                             <a href='mailto:christy.w.chen@gmail.com' target="_blank" rel="noreferrer noopener" className="anchor__normal">Contact</a>
                         </div>
