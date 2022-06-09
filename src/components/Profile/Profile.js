@@ -16,7 +16,7 @@ function Profile() {
                                 These days, I still tell stories and still create, but my means has shifted.
                             </p>
                             <p>
-                                As a software engineer, my toolkit now includes a wide breadth of technologies and skills. I'm also leveraging my past experience in digital marketing, ecommerce, and studying user behavior as I seek to build full-stack applications that bring joy to not only myself, but others as well.
+                                As a software engineer, my toolkit now includes a wide breadth of technologies and skills. I'm also leveraging my past experience in digital marketing, ecommerce, and studying user behavior as I build applications that bring joy to not only myself, but others as well.
                             </p>
                         </div>
                         <div className='profile__links'>
