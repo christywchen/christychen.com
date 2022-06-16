@@ -16,7 +16,7 @@ function Profile() {
                                 These days, I still tell stories and still seek to create with authenticity, but my means has shifted.
                             </p>
                             <p>
-                                Now, as a software engineer, my toolkit includes a wide breadth of technologies and skills. I'm also leveraging my experience in digital marketing, ecommerce, and studying user behavior to build applications that bring joy to not only myself, but others as well.                            </p>
+                                Now, as a software engineer, my toolkit includes a wide breadth of technologies and skills. I'm leveraging my experience in digital marketing, ecommerce, and studying user behavior to build applications that bring joy to not only myself, but others as well.                            </p>
                         </div>
                         <div className='profile__links'>
                             <a href='https://github.com/christywchen' target="_blank" rel="noreferrer noopener" className="anchor__normal">Github</a>
