@@ -13,7 +13,7 @@ function Profile() {
                                 As a child of the West Coast, I've always had a mentality that matched the lifestyle. Rather than getting lost in the daily grind, I prefer seeking joy in the meaningful experiences of everyday life. For a while, I transformed my affinity for mindful living into a more complex skill: Crafting integrated online marketing campaigns that help brands tell meaningful, authentic stories.
                             </p>
                             <p>
-                                These days, I still tell stories and still seek to create with authenticity, but my means has shifted.
+                                These days, I still tell stories and still seek to create, but my means has shifted.
                             </p>
                             <p>
                                 Now, as a software engineer, my toolkit includes a wide breadth of technologies and skills. I'm leveraging my experience in digital marketing, ecommerce, and studying user behavior to build applications that bring joy to not only myself, but others as well.                            </p>
